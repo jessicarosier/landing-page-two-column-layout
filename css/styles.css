@@ -10,6 +10,7 @@
     --secondary-font: 'Open Sans', sans-serif;
     --footer-font-color: #FFF;
     --hover-color: #3DA08F;
+    --border-radis: 3.13px;
 }
 
 .row {
@@ -28,7 +29,7 @@ h1 {
     max-width: 627px;
 }
 
-h2 {
+p {
     font-family: var(--secondary-font);
 }
 
@@ -50,10 +51,10 @@ nav a:hover {
 }
 
 .hero-container {
-    min-height: 800px;
+    min-height: 80vh;
 }
 
-.hero-left-side h2 {
+.hero-left-side p {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
@@ -63,6 +64,7 @@ nav a:hover {
 
 .form-wrapper {
     max-width: 627px;
+    color: #C2C2C2;
 }
 
 .hero-image {
@@ -72,17 +74,20 @@ nav a:hover {
 
 .form-wrapper form label input {
     width: 320px;
-    height: 45px;
+    min-height: 45px;
     border: solid #07043B 1px;
-    border-radius: 5px;
+    border-radius: var(--border-radis);
+
 }
 
 input::placeholder {
     padding-left: 21px;
+    letter-spacing: 0.436px;
 }
 
 .form-wrapper form button {
-    width: 200px;
+    flex: 0 0 200px;
+    /*width: 200px;*/
     height: 45px;
     background-color: #2F65F8;
     color: white;
@@ -90,7 +95,7 @@ input::placeholder {
     font-weight: 700;
     font-size: 14px;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--border-radis);
 }
 
 .middle-container {
