@@ -8,6 +8,8 @@
     --primary-font: 'Raleway', sans-serif;
     --primary-font-color: #07043B;
     --secondary-font: 'Open Sans', sans-serif;
+    --footer-font-color: #FFF;
+    --hover-color: #3DA08F;
 }
 
 .row {
@@ -43,8 +45,8 @@ h2 {
     font-weight: 400;
 }
 
-.nav-menu-list li a {
-    text-decoration: none;
+nav a:hover {
+    color: var(--hover-color);
 }
 
 .hero-container {
@@ -121,7 +123,7 @@ footer.container {
     background-color:#07043B;
     min-height: 391px;
     padding-top:92px;
-    color: #FFF;
+    color: var(--footer-font-color);
     font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 16px;
@@ -146,17 +148,9 @@ footer.container {
     gap:16px;
 }
 
-
 .first-footer-list, .second-footer-list {
     flex-direction: column;
     gap:16px;
-    list-style-type: none;
-    color:inherit;
-    font-family: inherit;
-}
-
-.first-footer-list li {
-    text-decoration: none;
 }
 
 .social-icons {

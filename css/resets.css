@@ -21,3 +21,13 @@ button {
 input, input::placeholder {
     font-family: inherit;
 }
+
+ul {
+    list-style: none;
+    font-family: inherit;
+}
+
+a {
+    color:inherit;
+    text-decoration: unset;
+}
