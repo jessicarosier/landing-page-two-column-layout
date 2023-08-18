@@ -1,8 +1,13 @@
 /* All your custom styles for this site go here */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 :root {
     --primary-font: 'Raleway', sans-serif;
+    --primary-font-color: #07043B;
+    --secondary-font: 'Open Sans', sans-serif;
 }
 
 .row {
@@ -11,6 +16,18 @@
 
 body {
     font-family: var(--primary-font);
+    color: var(--primary-font-color)
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    max-width: 627px;
+}
+
+h2 {
+    font-family: var(--secondary-font);
 }
 
 .logo-img {
@@ -20,33 +37,25 @@ body {
 }
 
 .nav-menu-list {
-    gap:57px;
+    gap: 57px;
     list-style-type: none;
     font-size: 16px;
     font-weight: 400;
-    color:#07043B
 }
 
 .nav-menu-list li a {
     text-decoration: none;
 }
 
-/*.hero-section {*/
-/*    max-width: 1280px;*/
-/*}*/
-
-.hero-left-side h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    max-width: 627px;
+.hero-container {
+    min-height: 800px;
 }
 
 .hero-left-side h2 {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    min-height: 72px ;
+    min-height: 72px;
     max-width: 585px;
 }
 
@@ -80,6 +89,43 @@ input::placeholder {
     font-size: 14px;
     border: none;
     border-radius: 5px;
+}
+
+.middle-container {
+    min-height: 850px;
+}
+
+.middle-left-side h1 {
+    min-width: 648px;
+}
+
+.middle-left-side h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonial {
+    width: 356px;
+    height: 215px;
+    border: solid black 1px;
+}
+
+
+.sign-up-section {
+    background-color: #575988;
+    min-height: 369.715px;
+}
+
+footer.container {
+    background-color:#07043B;
+    min-height: 391px;
+    padding-top:92px
+}
+
+.footer-img-logo {
+    max-width: 135px;
+    max-height: 39px ;
 }
 
 

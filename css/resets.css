@@ -17,3 +17,7 @@ img, svg {
 button {
     cursor: pointer;
 }
+
+input, input::placeholder {
+    font-family: inherit;
+}
