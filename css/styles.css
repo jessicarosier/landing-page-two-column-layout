@@ -120,12 +120,52 @@ input::placeholder {
 footer.container {
     background-color:#07043B;
     min-height: 391px;
-    padding-top:92px
+    padding-top:92px;
+    color: #FFF;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    gap:37px;
 }
+
+.first-footer-column {
+    gap:16px;
+}
+
 
 .footer-img-logo {
     max-width: 135px;
     max-height: 39px ;
+}
+
+.phone-wrapper {
+    gap: 16px;
+}
+
+.mail-wrapper {
+    gap:16px;
+}
+
+
+.first-footer-list, .second-footer-list {
+    flex-direction: column;
+    gap:16px;
+    list-style-type: none;
+    color:inherit;
+    font-family: inherit;
+}
+
+.first-footer-list li {
+    text-decoration: none;
+}
+
+.social-icons {
+    gap:12.49px;
+}
+
+.footer-icon {
+    width: 32.36px;
+    height: 31px;
 }
 
 
