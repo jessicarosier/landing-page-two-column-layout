@@ -11,7 +11,7 @@
     --footer-font-color: #FFF;
     --hover-color: #3DA08F;
     --border-radis: 3.13px;
-    --button-color:#2F65F8;
+    --button-color: #2F65F8;
 }
 
 .row {
@@ -47,7 +47,7 @@ p {
     font-weight: 400;
 }
 
-nav a:hover {
+a:hover {
     color: var(--hover-color);
 }
 
@@ -100,20 +100,100 @@ nav a:hover {
     min-height: 850px;
 }
 
-.middle-left-side h1 {
-    min-width: 648px;
+.middle-left-side {
+    gap: 16px;
 }
 
-.middle-left-side h2 {
+.middle-left-side h1 {
+    min-width: 648px;
+    max-width: 100%;
+}
+
+.middle-left-side p {
+    max-width: 529px;
+    font-family: var(--secondary-font);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
+
+.middle-left-side a {
+    color: #3DA08F;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.green-line-link {
+    flex-direction: column;
+}
+
+.green-line {
+    width: 166px;
+    height: 1px;
+}
+
+.arrow-img {
+    width: 12px;
+    height: 12px;
+}
+
+
 .testimonial {
     width: 356px;
-    height: 215px;
-    border: solid black 1px;
+    min-height: 215px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 26px;
+    padding-top:12px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.05);
+    gap:45px;
+}
+
+.testimonial p {
+    font-family: var(--secondary-font);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px; /* 176.923% */
+    letter-spacing: 0.5px;
+}
+
+.avatar-wrapper {
+    gap: 8px;
+}
+
+.avatar-name-wrapper {
+    flex-direction: column;
+}
+
+.avatar-name-wrapper p {
+    font-family: var(--secondary-font);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+}
+
+.avatar-title {
+    font-family: var(--secondary-font);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px; /* 187.5% */
+    letter-spacing: 0.4px;
+}
+
+.testimonial-img-avatar {
+    border-radius: 50%;
+    min-width: 32px;
+    max-height: 32px;
+}
+
+
+.middle-image {
+    max-width: 542px;
+    min-height: 409px;
 }
 
 
@@ -123,7 +203,7 @@ nav a:hover {
 }
 
 .left-signup-column {
-    gap:17px;
+    gap: 17px;
 }
 
 .left-signup-column h2 {
@@ -149,7 +229,7 @@ nav a:hover {
 
 .signup-form {
     flex-direction: column;
-    gap:16px;
+    gap: 16px;
 }
 
 .signup-form input {
@@ -173,24 +253,24 @@ nav a:hover {
 
 
 footer.container {
-    background-color:#07043B;
+    background-color: #07043B;
     min-height: 391px;
-    padding-top:92px;
+    padding-top: 92px;
     color: var(--footer-font-color);
     font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 16px;
-    gap:37px;
+    gap: 37px;
 }
 
 .first-footer-column {
-    gap:16px;
+    gap: 16px;
 }
 
 
 .footer-img-logo {
     max-width: 135px;
-    max-height: 39px ;
+    max-height: 39px;
 }
 
 .phone-wrapper {
@@ -198,16 +278,21 @@ footer.container {
 }
 
 .mail-wrapper {
-    gap:16px;
+    gap: 16px;
+}
+
+.email-img-icon, .phone-img-icon {
+    width: 24px;
+    max-height: 24px;
 }
 
 .first-footer-list, .second-footer-list {
     flex-direction: column;
-    gap:16px;
+    gap: 16px;
 }
 
 .social-icons {
-    gap:12.49px;
+    gap: 12.49px;
 }
 
 .footer-icon {
