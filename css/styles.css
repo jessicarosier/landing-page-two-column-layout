@@ -300,4 +300,8 @@ footer.container {
     height: 31px;
 }
 
+footer a:hover {
+    color:#6C9BFF;
+}
+
 
